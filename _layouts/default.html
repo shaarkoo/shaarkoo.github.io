@@ -34,25 +34,25 @@ gtag('config', '{{site.ganalytics}}');
 <script type="application/ld+json">
 {  "@context": "https://schema.org/",
   "@type": "Recipe",
-  "name": {{ page.title }},
+  "name": "{{ page.title }}",
   "author": {
     "@type": "Person",
-    "name": {{site.authors[page.author].name}}
+    "name": "{{site.authors[page.author].name}}"
   },
-  "keywords": {{ page.keywords }},
+  "keywords": "{{ page.keywords }}",
   "prepTime": "PT{{ page.preptime }}M",
   "cookTime": "PT{{ page.cooktime }}M",
   "totalTime": "PT{{ page.totalmins }}M",
-  "recipeYield": {{ page.servings }},
-  "recipeCategory": {{ page.recipe_category }},
-  "recipeCuisine": {{ page.cuisine }},
+  "recipeYield": "{{ page.servings }}",
+  "recipeCategory": "{{ page.recipe_category }}",
+  "recipeCuisine": "{{ page.cuisine }}",
   "image": [
       "https://example.com/photos/1x1/photo.jpg",
       "https://example.com/photos/4x3/photo.jpg",
       "https://example.com/photos/16x9/photo.jpg"
       ],
   "datePublished": {{ page.date }},
-  "description": {{ page.google_description }}
+  "description": "{{ page.google_description }}"
 }
 </script>
 {% endif %}
