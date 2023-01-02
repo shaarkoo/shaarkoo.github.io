@@ -105,12 +105,17 @@ a.anchor {
     text-decoration:none;
 }
 
+.ingredients  {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .ingredients li {
     list-style: none;
     margin-bottom: 10px;
 }
 
 .instructions {
+    font-family: 'Montserrat', sans-serif;
     margin-bottom: 35px;
 }
 
