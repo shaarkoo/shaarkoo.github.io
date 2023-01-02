@@ -3,7 +3,7 @@ email: askshaarkoo@gmail.com
 timezone: UTC
 baseurl: ""
 permalink: "/:title/"
-logo: 'assets\images\logos\SK_logo_small_100px.png'
+logo: 'assets\images\logos\SK_logo_small_50px.png'
 favicon: 'assets/images/favicon.ico'
 author: Dan
 paginate: 30

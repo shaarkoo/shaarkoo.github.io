@@ -134,6 +134,14 @@ a.anchor {
     scale: 1.1;
 }
 
-.sticky-top {
-    top:120px;
+.sk-product {
+    position: inherit;
+}
+
+@media screen and (min-width: 1000px) {
+    .sk-product  {
+        position: sticky;
+        top:120px;
+        z-index: 5;
+    }
 }
