@@ -69,6 +69,8 @@ sections:
         I was excited to try the Coffee Liqueur immediately but it does need to sit for awhile to really enhance its flavor profile. Store the mixture in nice glass jar, I used these jars, and store it in a cool dark place for about 1 month. I check out on it every few days and sometimes steal a sip! The sip really helps you stay excited and you can taste the changes over time. After the month of resting, I would split the recipe into multiple smaller bottles, <a href="https://amzn.to/3jHBeY7">perfect glass bottles</a>, and keep a piece of vanilla bean in each for extra flavor!
         
 disclaimer: Please drink safely and responsbily.
+
+sk_product: 0
 ---
 <!-- 
 ## Tips

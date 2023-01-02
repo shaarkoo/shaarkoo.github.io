@@ -133,11 +133,6 @@ archive: false
             </div>				
             {% endif %}
             
-
-
-        
-        
-
     </div>
     <!-- End Post -->
 
@@ -149,13 +144,14 @@ archive: false
 </div>
 
 <div class="sidebar col-sm-4">
-    <div class="sidebar-section" style="margin-bottom: 4rem;">
-        <h5><span>Shaar Koo Product</span></h5>
-        <p>CONTENT</p>
-        <p>CONTENT</p>
-        <p>CONTENT</p>
-        <button class=" btn btn-dark shop-now-btn text-white px-3 float-right">Buy Now</button>
-    </div>
+    {% if page.sk_product %}
+        {% assign product = site.data.products.products[page.sk_product] %}
+        {% include sk_product.html %}
+    {% else %}
+        {% assign product = site.data.products.products[0] %}
+        {% include sk_product.html %}
+    {% endif %}
+    
     <div class="sidebar-section" style="margin-bottom: 150px;">
         <h5><span>Your Ad Here</span></h5>
         <img src="{{site.baseurl}}/assets/images/ad.png">

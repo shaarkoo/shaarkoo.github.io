@@ -1,0 +1,9 @@
+products:
+  - essential_charcuterie:
+    title: The Essential Charcuterie
+    url: https://shaarkoo.com/products/the-essential-charcutrie
+    price: $50.00
+    images: 
+      - assets\products\essential\IMG-2457.jpg
+      - assets\products\essential\IMG_1875_1.jpeg
+    short_description: The Essential kit comes with a walnut charcuterie board and 5 gorgeous templates!
