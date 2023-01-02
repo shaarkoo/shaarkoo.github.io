@@ -139,9 +139,9 @@ a.anchor {
 }
 
 @media screen and (min-width: 1000px) {
-    .sk-product  {
+    /* .sk-product  {
         position: sticky;
         top:120px;
         z-index: 5;
-    }
+    } */
 }
