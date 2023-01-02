@@ -33,7 +33,7 @@ preptime: 21
 cooktime: 180
 totalmins: 43410
 recipe_category: Drink
-google_description: 
+google_description: Homemade Coffee Liqueur recipe. Perfect replacement for Kahlua!
 cuisine: Cocktail
 servings: 6 cups
 keywords: coffee liqueur, vodka, dessert
