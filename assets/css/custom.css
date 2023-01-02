@@ -1,0 +1,107 @@
+/* 
+Don't want to use sass and simply modify the stylesheet in the old css fashion? 
+Just customize your theme here.
+================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Montserrat&display=swap');
+
+:root{
+    --primary: #758F78;
+}
+
+/* Fonts */
+h1, h2, h3, h4, h5 {
+    font-family: 'Libre Baskerville', serif;
+}
+
+p, a {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.button {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero {
+    background: none;
+    padding: 5rem 2rem;
+}
+
+.hero h1{
+    font-family: 'Libre Baskerville', serif;
+}
+
+.shop-now-btn {
+    background: var(--primary);
+    border: none;
+}
+
+.article-post a {
+    color: inherit;
+    box-shadow: inset 0 -2px 0 #C19B2E, 0 3px 0 #C19B2E;
+}
+
+.article-post a:hover {
+    padding: 5px 5px 0px 5px;
+    box-shadow:inset 0 -30px 0 #C19B2E, 0 3px 0 #C19B2E;
+    color: white;
+    text-decoration:none;
+    font-weight: bold;
+}
+
+
+.tip h4 {
+    margin-bottom: 0px;
+    /* font-family: 'Libre Baskerville', serif; */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    background-color:#758f7868;
+    padding: 10px;
+}
+
+.tip p {
+    font-size: 18px;
+    background-color: rgba(128, 128, 128, 0.05);
+    padding: 0px 10px 10px 10px;
+}
+
+.affiliate-disclaimer {
+    padding: 10px 0px 10px 10px;
+}
+
+.affiliate-disclaimer h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -250px;
+    visibility: hidden;
+}
+
+.jump-to-btn {
+    padding: 0px 5px 0px 5px;
+    font-size: 15px;
+    box-shadow: inset 0 -2px 0 #758F78, 0 1px 0 #758F78;
+}
+
+.jump-to-btn:hover {
+    box-shadow:inset 0 -30px 0 #758F78, 0 1px 0 #758F78;
+    text-decoration:none;
+}
+
+.ingredients li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.instructions {
+    margin-bottom: 35px;
+}
+
+.sidebar-section {
+    box-shadow: 0 0px 1px 0 rgb(0 0 0 / 44%);
+    padding: 30px 30px 50px 30px; 
+}

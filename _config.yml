@@ -1,0 +1,65 @@
+title: "Shaar Koo - Recipes"
+email: askshaarkoo@gmail.com
+timezone: UTC
+baseurl: ""
+permalink: "/:title/"
+logo: 'assets\images\logos\SK_logo_small_100px.png'
+favicon: 'assets/images/favicon.ico'
+author: Dan
+paginate: 30
+disqus: 'demowebsite'
+locale: en_us
+lang: en_us
+feed_items: 10
+feed_update_period: daily
+feed_update_frequency: 1
+markdown: kramdown
+kramdown:
+  syntax_highlighter_opts:
+    disable: true
+sass:
+  sass_dir: _sass
+  style: :compressed
+ganalytics: UA-113961478-1
+
+
+
+# Authors
+authors:
+  dan:
+    name: Dan
+    display_name: Dan A
+    avatar: 'assets\images\authors\dan.JPG'
+    email: askshaarkoo@gmail.com
+    web: https://www.shaarkoo.com
+    twitter: https://twitter.com/hardlybriefdan
+    description: "Cofounder of Shaar Koo, a family-owned company, and an aspiring home cook!"
+  mackenzie:
+    name: Mackenzie
+    display_name: Mackenzie
+    avatar: 'assets/images/john.png'
+    email: askshaarkoo@gmail.com
+    web: https://www.shaarkoo.com
+    description: "Cofounder of Shaar Koo, a family-owned company, and an aspiring home cook!"
+
+# Social
+social:
+  instagram: https://www.instagram.com/shaar.koo.designs/
+  # facebook: https://www.facebook.com/bootstrapstartercom-346329609045284
+  # twitter: https://twitter.com/bstartercom
+
+# Plugins
+plugins: 
+- jekyll-paginate
+- jekyll-sitemap
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-archives
+
+
+shaarkoo:
+  website: https://www.shaarkoo.com
+  products: https://shaarkoo.com/collections/all
+  essential_product: https://shaarkoo.com/products/the-essential-charcutrie
+  contact: https://shaarkoo.com/pages/contact
+  about: https://shaarkoo.com/pages/meet-us

@@ -1,0 +1,173 @@
+---
+layout: default
+disqus: false
+archive: false
+---
+
+
+
+
+<!-- Begin Article
+================================================== -->
+
+<div class="row" style="margin-top: 1.5rem;">
+		
+
+    <!-- Post -->        
+    {% assign author = site.authors[page.author] %}
+    
+    <div class="col-sm-8">
+        <!-- Post Featured Image -->
+        {% if page.feature_image %}<img class="featured-image img-fluid rounded" src="{{ site.baseurl }}/{{ page.feature_image }}" alt="{{ page.title }}">{% endif %}
+        <!-- End Featured Image -->
+        <div class="mainheading">             
+            
+            <!-- Post Categories -->
+            <div class="after-post-tags">
+                <ul class="tags">
+                    {% assign sortedCategories = page.categories | sort %}
+                    {% for category in sortedCategories %}
+                    <li>
+                        <a href="{{ site.baseurl }}/categories#{{ category | slugify }}">{{ category }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <!-- End Categories -->
+            
+            <!-- Post Title -->
+            <h1 class="posttitle" style="margin-bottom: 10px">{{ page.title }}</h1> 
+
+
+            <div  style="margin-bottom: 20px">
+                {% assign totaltime = page.preptime | plus: page.cooktime %}
+                {% assign minutes = totaltime | modulo: 60 %}
+                <p class="float-right">Time - {% if totaltime > 60 %}{{ totaltime | divided_by: 60}} hours{% endif %}{% if minutes > 0 %} {{ minutes }} minutes{% endif %} | Servings - {{ page.servings }}</p>
+            </div>
+    
+            
+            <div class="article-post">
+                {% if page.introduction.header %}<h2> {{ page.introduction.header }} </h2>{% endif %}
+                <p>{{ page.introduction.body }}</p>
+            </div>
+    
+    
+            <a class="jump-to-btn float-right" href="#jump_to">Jump to Recipe</a>
+        
+            {% for section in page.sections %}
+            <div class="article-post section" style="margin-top: 70px;">
+                {% if section.header %} <h2>{{ section.header }}</h2>{% endif %}
+                
+                {% if section.image %} <img class="img-fluid rounded" src="{{ site.baseurl }}/{{ section.image }}" alt="" > {% endif %}
+    
+                <p>{{ section.body }}</p>
+                {% if section.tip %} 
+                <div class="article-post tip">
+                    <h4>Quick Tip</h4>
+                    <p>{{ section.tip }}</p>
+                </div>
+                {% endif %}
+            </div>
+            {% endfor %}
+    
+            <a class="anchor" id="jump_to"></a>
+    
+            <div id="ingredients" class="ingredients article-post">
+                <h2>Ingredients</h2>
+                {% for ingredient in page.ingredients %}
+                    <li>{{ ingredient[1] }} {{ ingredient[0] }}</li>
+                {% endfor %}
+            </div>
+    
+    
+            <div id="instructions" class="instructions article-post">
+                <h2>Instructions</h2>
+                <ol>
+                    <li>{{ page.instructions | join: '</li> <li>' }}</li>
+                </ol>
+            </div>
+    
+            <blockquote class="affiliate-disclaimer">
+                <h4>Affiliate Link Disclaimer</h4>
+                All product links listed on this page our Amazon Affiliate links and Shaar Koo does earn money if you choose to order from those links.
+            </blockquote>
+    
+            <!-- Post Date -->
+            <p>
+                <small>
+                    <span class="post-date"><time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">Published on {{ page.date | date_to_string }}</time></span>           
+                        {% if page.last_modified_at %}
+                            (Updated: <time datetime="{{ page.last_modified_at | date_to_xmlschema }}" itemprop="dateModified">{{ page.last_modified_at | date: "%b %-d, %Y" }}</time>)
+                        {% endif %}
+                </small>
+            </p>
+            
+            
+            
+            <!-- Prev/Next -->
+            <div class="row PageNavigation mt-4 prevnextlinks d-flex justify-content-between">
+                {% if page.previous.url %}
+                    <div class="col-md-6 rightborder pl-0">
+                        <a class="thepostlink" href="{{page.previous.url | absolute_url}}">&laquo; {{page.previous.title}}</a>
+                    </div>
+                {% endif %}
+                {% if page.next.url %}
+                    <div class="col-md-6 text-right pr-0">
+                        <a class="thepostlink" href="{{page.next.url | absolute_url}}">{{page.next.title}} &raquo;</a>
+                    </div>
+                {% endif %}
+            </div>
+            <!-- End Prev/Next -->
+            
+            
+            <!-- Author Box -->
+            {% if page.author %}				
+            <div class="row post-top-meta">
+                <div class="col-md-2">
+                    <img class="author-thumb" src="{{site.baseurl}}/{{author.avatar}}" alt="{{ author.display_name }}">
+                </div>
+                <div class="col-md-10">
+                    <a target="_blank" class="link-dark" href="{{ author.web }}">{{ author.display_name }}</a><a target="_blank" href="{{ author.twitter }}" class="btn follow">Follow</a>
+                    <span class="author-description">{{ author.description }}</span>						
+                </div>
+            </div>				
+            {% endif %}
+            
+
+
+        
+        
+
+    </div>
+    <!-- End Post -->
+
+
+    
+
+    
+
+</div>
+
+<div class="sidebar col-sm-4">
+    <div class="sidebar-section" style="margin-bottom: 4rem;">
+        <h5><span>Shaar Koo Product</span></h5>
+        <p>CONTENT</p>
+        <p>CONTENT</p>
+        <p>CONTENT</p>
+        <button class=" btn btn-dark shop-now-btn text-white px-3 float-right">Buy Now</button>
+    </div>
+    <div class="sidebar-section" style="margin-bottom: 150px;">
+        <h5><span>Your Ad Here</span></h5>
+        <img src="{{site.baseurl}}/assets/images/ad.png">
+    </div>
+    {% for section in page.sections %}
+    <!-- Sidebar -->
+    <div class="sidebar-section" style="margin-bottom: 150px;">
+        <h5><span>Your Ad Here</span></h5>
+        <img src="{{site.baseurl}}/assets/images/ad.png">
+    </div>
+{% endfor %}
+</div>
+
+
+

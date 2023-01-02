@@ -1,0 +1,45 @@
+# Top Menu
+topmenu:
+
+- title: About Us
+  url: https://shaarkoo.com/pages/meet-us
+  external: true
+
+- title: Our Promise
+  url: https://shaarkoo.com/pages/mission
+  external: true
+
+- title: Contact
+  url: https://shaarkoo.com/pages/contact
+  external: true
+
+- title: Shop Now 
+  url: https://shaarkoo.com/products/the-essential-charcutrie
+  class: "ml-2 btn btn-dark shop-now-btn text-white px-3"
+  external: true
+
+# Footer Menu
+footermenu:
+
+- title: Home
+  url: ""
+
+- title: Privacy Policy
+  url: https://shaarkoo.com/policies/privacy-policy
+  external: true
+
+- title: About Us
+  url: https://shaarkoo.com/pages/meet-us
+  external: true
+
+- title: Our Promise
+  url: https://shaarkoo.com/pages/mission
+  external: true
+
+- title: Contact
+  url: https://shaarkoo.com/pages/contact
+  external: true
+
+- title: Shop Now 
+  url: https://shaarkoo.com/products/the-essential-charcutrie
+  external: true
