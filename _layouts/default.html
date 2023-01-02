@@ -46,11 +46,7 @@ gtag('config', '{{site.ganalytics}}');
   "recipeYield": "{{ page.servings }}",
   "recipeCategory": "{{ page.recipe_category }}",
   "recipeCuisine": "{{ page.cuisine }}",
-  "image": [
-      "https://example.com/photos/1x1/photo.jpg",
-      "https://example.com/photos/4x3/photo.jpg",
-      "https://example.com/photos/16x9/photo.jpg"
-      ],
+  "image": "{{site.baseurl}}/{{ page.image }}"
   "datePublished": "{{ page.date }}",
   "description": "{{ page.google_description }}"
 }
