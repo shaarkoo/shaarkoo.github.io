@@ -1,9 +1,15 @@
 products:
-  - essential_charcuterie:
-    title: The Essential Charcuterie
-    url: https://shaarkoo.com/products/the-essential-charcutrie
-    price: $50.00
+  - founders_edition:
+    title: The Founders Edition
+    url: https://shaarkoo.com/products/the-founders-edition
     images: 
       - assets\products\essential\IMG-2457.jpg
       - assets\products\essential\IMG_1875_1.jpeg
-    short_description: The Essential kit comes with a walnut charcuterie board and 5 gorgeous templates!
+    short_description: The Founders Edition comes with a walnut charcuterie board and 5 gorgeous templates!
+  - bonus_pack_one:
+    title: Template Pack One
+    url: https://shaarkoo.com/products/the-founders-edition
+    images: 
+      - assets\products\essential\IMG-2457.jpg
+      - assets\products\essential\IMG_1875_1.jpeg
+    short_description: More templates
