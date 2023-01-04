@@ -72,6 +72,13 @@ archive: false
     
             <a class="anchor" id="jump_to"></a>
     
+            <div id="tools" class="ingredients article-post">
+                <h2>Tools</h2>
+                {% for tool in page.tools %}
+                    <li>{{ tool }}</li>
+                {% endfor %}
+            </div>
+
             <div id="ingredients" class="ingredients article-post">
                 <h2>Ingredients</h2>
                 {% for ingredient in page.ingredients %}

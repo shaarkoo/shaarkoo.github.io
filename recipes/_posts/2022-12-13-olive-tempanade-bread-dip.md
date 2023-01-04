@@ -7,6 +7,11 @@ categories: [ dip, bread ]
 image: assets\recipes\images\dips\skc-00002\olive-tapenade-683x1024.jpg
 feature_image: assets\recipes\images\dips\skc-00002\olive-tapenade-683x1024.jpg
 
+tools:
+ - Dipping Bowl
+ - Small Food Processor
+ - Knife
+
 ingredients:
   Pitted Green Olives: 1/4 cup
   Pitted Kalamata Olives: 1/4 Cup
