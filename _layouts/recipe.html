@@ -67,10 +67,21 @@ archive: false
                     <p>{{ section.tip }}</p>
                 </div>
                 {% endif %}
+
+
+                {% if section.sk_product_ad %} 
+                    {% assign product = site.data.products.products[page.sk_product] %}
+                    {% include sk_product_mobile_in_recipe.html %}
+                {% endif %}
+
+
             </div>
             {% endfor %}
     
             <a class="anchor" id="jump_to"></a>
+
+            {% assign product = site.data.products.products[page.sk_product] %}
+            {% include sk_product_mobile_in_recipe.html %}
     
             <div id="tools" class="ingredients article-post">
                 <h2>Tools</h2>

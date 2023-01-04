@@ -138,10 +138,53 @@ a.anchor {
     position: inherit;
 }
 
+.desktop-hero {
+    display: none;
+}
+
+.sk-product-mobile {
+    border: #758f7859 1px solid;
+    border-radius: 5px;
+}
+
+.sk-product-mobile h4 {
+    padding: 0px;
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.sk-product-mobile{
+    padding: 5px;
+}
+
+.sk-product-mobile a{
+    box-shadow: none;   
+}
+
+.sk-product-mobile-btn{
+    margin-bottom: 60px;
+}
+
+
 @media screen and (min-width: 1000px) {
     /* .sk-product  {
         position: sticky;
         top:120px;
         z-index: 5;
     } */
+
+    .sk-product-mobile {
+        display: none;
+    }
+
+    .mobile-hero {
+        display: none;
+    }
+
+    .desktop-hero {
+        display: flex;
+        padding: 25px 0px 50px 0px;
+    }
+
+
 }

@@ -51,24 +51,28 @@ introduction:
 
 sections:
     - header: Choosing the Right Coffee Bean
+      sk_product_ad: true
       image: 
       tip: If you do not want to make your own coffee, you can use a Cold Brew Coffee like <a href="https://amzn.to/3CeHSeM">Wandering Bear</a> and use 4 cups instead
       body: >
         A lot of recipes for homemade Coffee Liqueur will tell you to use Instant Coffee and to stir it in with boiling water before adding the sugar. At Shaar Koo, we decided against that and wanted to kick it up a notch. I decided to go with one of my favorite coffees, Coffee from Tarrazu in Costa Rica. I chose this coffee specifically because it is fairly easy to find, is normally a medium roasted so it packs great flavor, and its flavor profile compliments the Coffee Liqueur with Chocolate, Honey, and Bright tasting notes. 
 
     - header:
+      sk_product_ad: false
       image: assets\recipes\images\cocktails\liqueur\coffee_liqueur\IMG_2616.jpeg
       tip: If you heat your own water to make the coffee, like I did, be sure the water to is not too HOT or it will burn the coffee
       body: >
         I used already ground coffee from the grocery store. Ideally, a freshly roasted whole bean is preferred but not always possible or easy to find, so this works well! I also used my Chemex to make the coffee. I frequently use a Chemex and thought it was the perfect way to make the coffee for this liqueur. <a href="https://amzn.to/3VDPoGK">Get a Chemex.</a> Do not fret if you do not have a Chemex. You can use a normal coffee machine, already made cold brew, or even a bunch of K-Cups. The choice is always yours and we say "Experiment"!
 
     - header: Cooking the Coffee and Sugar
+      sk_product_ad: false
       image: assets\recipes\images\cocktails\liqueur\coffee_liqueur\IMG_2629.jpeg
       tip: Remember to pay close attention to the Coffee and Brown Sugar mixture and not let it get too hot or the sugar will burn
       body: >
         The process, admittedly, is kinda long but well worth it! Take your time, remember to stir every 15 minutes, and let the Coffee and Brown Sugar slowly simmer. You will notice it begins to thicken over time and the Coffee flavor becomes more prominent as the mixture becomes more of a syrup. After 2 hours, the mixture has thickened up and, if you are short on time, is ready to be removed from heat and let sit to cool down. If you have more time, let it cook more for a deeper and more complex flavor.
 
     - header: Storing the Liqueur
+      sk_product_ad: false
       image:
       tip:
       body: >

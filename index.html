@@ -7,7 +7,7 @@ background: '/img/bg-index.jpg'
 <!-- Home Intro
 ================================================== -->
 {% if page.url == "/" %} 
-<div class="rounded mb-10 hero">
+<div class="rounded mb-10 hero mobile-hero">
   <div class="row align-items-center justify-content-between">
     <div class="col-sm-12">
       <h1 class="font-weight-bold mb-4 serif-font">Shaar Koo's recipes in one spot!</h1>
@@ -19,6 +19,17 @@ background: '/img/bg-index.jpg'
         <img class="intro" style="object-fit:cover;" height="100" src="{{site.baseurl}}/assets/CoverImage-1200x628px.png">      
       </a>
     </div> -->
+  </div>
+</div>
+
+<div class="rounded mb-12 desktop-hero">
+  <div class="row justify-content-between">
+    <div class="col-lg-12">
+      <a href="https://shaarkoo.com/">
+        <img style="object-fit:contain;" height="100" src="{{site.baseurl}}/assets/CoverImage-1200x628px.png">
+      </a> 
+    </div>
+    
   </div>
 </div>
 {% endif %}

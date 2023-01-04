@@ -1,0 +1,14 @@
+<div class="row sk-product-mobile" >
+    <div class="col-sm-12">
+        <h4 ><span>{{ product.title }}</span></h4>
+        <p>
+           <img src="{{site.baseurl}}/{{ product.images[1] }}" alt="" srcset=""> 
+        </p>
+        <p>{{ product.short_description }}
+            
+        </p>
+        <div class="sk-product-mobile-btn">
+            <a class="btn btn-dark shop-now-btn text-white float-right" href="{{ product.url }}">Buy Now</a>
+        </div>
+    </div>
+</div>
