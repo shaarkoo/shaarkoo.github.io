@@ -31,11 +31,11 @@ calories: NA
 preptime: 15
 cooktime: 0
 totalmins: 15
-recipe_category: Dip
+recipe_category: Bread Dip
 google_description: Tasty garlic, parsely, tapenade. Perfect to dip with fresh toasted bread and to serve along side of a charcuterie board.
-cuisine: Appetizer
+cuisine: French
 servings: 3/4 cup
-keywords: appetizer, garlic, tapenade, france, charcuterie
+keywords: easy, quick, garlic, tapenade, charcuterie
 
 introduction: 
     header: What is Tapenade?
