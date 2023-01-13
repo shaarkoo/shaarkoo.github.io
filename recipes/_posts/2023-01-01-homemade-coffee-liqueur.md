@@ -15,7 +15,7 @@ tools:
 
 ingredients:
   Water: 4 cups
-  Costa Rican Ground Coffee: 56g
+  Costa Rican Ground Coffee: 100g
   Light Brown Sugar: 2 cups
   Packed Dark Brown Sugar: 2 cups
   High Proof Rum: 750ml
