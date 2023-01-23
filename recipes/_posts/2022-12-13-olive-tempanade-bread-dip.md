@@ -1,7 +1,7 @@
 ---
 layout: recipe
 skc: SKC-00002
-title:  "Garlic and Balsalmic Tapenade (Bread Dip)"
+title:  "Garlic and Balsamic Tapenade (Bread Dip)"
 author: dan
 categories: [ dip, bread ]
 image: assets\recipes\images\dips\skc-00002\olive-tapenade-683x1024.jpg
